@@ -1,0 +1,7 @@
+GENERAL: "WORKS!"
+# This shouldn't be loaded in spec env
+SPECIFIC: "DOESNT WORK!"
+
+# This should be loaded instead
+development:
+  SPECIFIC: "ALSO WORKS!"
